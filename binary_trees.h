@@ -71,7 +71,10 @@ int binary_tree_is_heap(const binary_tree_t *tree);
 heap_t *heap_insert(heap_t **root, int value);
 heap_t *array_to_heap(int *array, size_t size);
 int btih_helper(const binary_tree_t *tree);
-
+int btib_helper(const binary_tree_t *tree, int low, int hi);
+int _pow_recursion(int x, int y);
+binary_tree_t *bta_helper(binary_tree_t *root, const binary_tree_t *first,
+			  const binary_tree_t *second);
 
 
 #endif
